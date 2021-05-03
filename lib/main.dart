@@ -177,6 +177,7 @@ class _FirebaseDemoState extends State<FirebaseDemo> {
             Text("Not Logged in"),
             ElevatedButton(
                 onPressed: () async {
+                  print("Button onPressed STARTED");
                   //setState(() async {
                   // do authenication
                   userCredential = await signInWithGoogle();
