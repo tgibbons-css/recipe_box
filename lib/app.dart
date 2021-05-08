@@ -16,7 +16,12 @@ class RecipesApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      home: LoginScreen(),
+      // routes: {
+      //   '/': (context) => Home(), // New code
+      //   '/login': (context) => LoginScreen(),
+      // },
     );
+
   }
 }
